@@ -1,0 +1,16 @@
+/* src/index.css */
+
+/* 간단한 CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 전체 배경, 기본 폰트 설정 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}

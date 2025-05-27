@@ -1,0 +1,13 @@
+/* components/MainPage/NearbySection.css */
+
+.mp-nearby .mp-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.mp-nearby .kakao-map-placeholder {
+  background: #e0e0e0;
+  border-radius: 12px;
+}

@@ -1,0 +1,70 @@
+.landing-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2d8f; /* 화면 배경색 */
+}
+
+.landing-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.landing-subtitle {
+  font-size: 1rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0 2rem;
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 260px; /* 버튼 그룹 너비 */
+}
+
+.btn {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* 카카오 로그인 버튼 */
+.kakao-btn {
+  background-color: #fee500;
+  color: #3c1e1e;
+}
+
+/* 네이버 로그인 버튼 */
+.naver-btn {
+  background-color: #03c75a;
+  color: #fff;
+}
+
+/* 애플 로그인 버튼 */
+.apple-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.landing-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2d8f;
+}

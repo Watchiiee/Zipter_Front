@@ -1,0 +1,124 @@
+/* src/components/AiSettings/AiRegionPage.css */
+
+.ar-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding-bottom: 70px;
+}
+
+.ar-header {
+  background: #2a2d8f;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+
+.ar-back-btn {
+  background: none;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.ar-title {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.ar-content {
+  padding: 1rem;
+  flex: 1;
+}
+
+.ar-label-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.ar-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.ar-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.ar-search {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.ar-search-input {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ar-search-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.ar-search-input svg {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.ar-suggestions {
+  position: static; /* 절대 위치 해제 */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 0.25rem;
+  max-height: none; /* 스크롤 제한 해제 */
+  overflow: visible;
+  z-index: 10;
+}
+
+.ar-item {
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ar-item:hover {
+  background: #f5f5f5;
+}
+
+.ar-item.selected {
+  border-left: 4px solid #2a2d8f;
+}
+
+.ar-item.no-result {
+  justify-content: center;
+  color: #888;
+}
+
+/* 다음 버튼 */
+.ar-next-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #2a2d8f;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 1rem;
+  cursor: pointer;
+}

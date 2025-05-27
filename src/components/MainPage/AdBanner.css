@@ -1,0 +1,12 @@
+/* components/MainPage/AdBanner.css */
+.mp-ad {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin-bottom: 1rem;
+}

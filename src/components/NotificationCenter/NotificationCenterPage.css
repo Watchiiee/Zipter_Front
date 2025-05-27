@@ -1,0 +1,76 @@
+/* src/components/NotificationCenter/NotificationCenterPage.css */
+
+.nc-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding-bottom: 70px; /* BottomNav 높이만큼 여백 */
+}
+
+/* 헤더 */
+.nc-header {
+  background: #2a2d8f;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+.back-btn {
+  background: none;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.nc-title {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+/* 본문 */
+.nc-content {
+  flex: 1;
+  padding: 1rem;
+}
+.nc-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+/* 리스트 */
+.nc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nc-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.nc-item-icon {
+  width: 40px;
+  height: 40px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin-right: 0.75rem;
+}
+.nc-item-title {
+  flex: 1;
+  font-size: 0.95rem;
+  color: #333;
+}
+.nc-item-time {
+  font-size: 0.85rem;
+  color: #666;
+  margin-right: 0.5rem;
+}
+.nc-item-more {
+  color: #888;
+  cursor: pointer;
+}

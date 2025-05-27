@@ -1,0 +1,66 @@
+.sr-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 70px; /* BottomNav 가림 방지 */
+  background: #f9f9f9;
+}
+
+.sr-header {
+  background-color: #2a2d8f;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 1;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.search-bar svg {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sr-map {
+  flex: none; /* flex-grow 해제 */
+  height: 60vh; /* 화면 높이의 60% 사용 (원하는 대로 조절) */
+  margin: 1rem 0; /* 상하 여백 추가 */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.sr-bottom-nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.sr-bottom-nav button {
+  flex: 1;
+  padding: 0.75rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+/* components/MainPage/Header.css */
+.mp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mp-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.mp-bell {
+  font-size: 1.4rem;
+  color: #fff;
+}

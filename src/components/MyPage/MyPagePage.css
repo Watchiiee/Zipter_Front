@@ -1,0 +1,146 @@
+/* src/components/MyPage/MyPagePage.css */
+.mpg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding-bottom: 70px; /* BottomNav 높이 만큼 */
+}
+
+/* 헤더 */
+.mpg-header {
+  background: #2a2d8f;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+.mpg-back-btn {
+  background: none;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.mpg-title {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+/* 프로필 */
+.mpg-profile {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  gap: 1rem;
+}
+.mpg-avatar {
+  width: 48px;
+  height: 48px;
+  background: #e0e0e0;
+  border-radius: 50%;
+}
+.mpg-userinfo {
+  flex: 1;
+}
+.mpg-username {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+.mpg-email {
+  font-size: 0.85rem;
+  color: #666;
+}
+.mpg-settings {
+  font-size: 1.25rem;
+  color: #666;
+  cursor: pointer;
+}
+
+/* 메뉴 리스트 */
+.mpg-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+.mpg-menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+.mpg-menu li span {
+  color: #333;
+}
+.mpg-menu li svg {
+  color: #999;
+}
+
+/* 버전 카드 */
+.version-card {
+  background: #fff;
+  margin: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* SNS 버튼들 */
+.mpg-sns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.mpg-sns button {
+  flex: 1 1 45%;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* 푸터 링크 */
+.mpg-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+.mpg-footer-links a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* 연락 버튼 */
+.mpg-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.mpg-contact-buttons button {
+  padding: 0.5rem 1rem;
+  background: #2a2d8f;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
