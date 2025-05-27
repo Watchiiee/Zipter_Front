@@ -56,9 +56,7 @@ npm start
 ---
 
 ## 🧑🏻‍💻 백엔드 연락처
-GitHub: https://github.com/ZipTe
-
-이메일: zipTeKR@gmail.com
+GitHub: https://github.com/ZipTe, Email: zipTeKR@gmail.com
 ---
 
 ## 🚪 집터, 당신만의 공간을 열어드립니다.
