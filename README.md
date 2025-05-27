@@ -56,10 +56,10 @@ npm start
 
 실시간 알림 연동 (Firebase 기반)
 
-백엔드는 팀원이 개발 및 유지보수합니다.
 ---
 
 ## 🧑🏻‍💻 백엔드 연락처
+백엔드는 팀원이 개발 및 유지보수합니다.
 GitHub: https://github.com/ZipTe
 
 이메일: zipTeKR@gmail.com
