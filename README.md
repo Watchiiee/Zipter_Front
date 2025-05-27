@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🏠 집터 (Zipter) - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 저장소는 **부동산 추천 및 지역 커뮤니티 플랫폼 '집터'의 프론트엔드** 코드입니다.  
+React 기반으로 구성되어 있으며, 사용자 인터페이스(UI), 페이지 라우팅, 사용자 상태 관리를 담당합니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📦 기술 스택
 
-### `npm start`
+- React
+- React Router
+- Context API
+- Firebase (알림 연동)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ 실행 방법
 
-### `npm test`
+### 1. 저장소 클론
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/Watchiiee/Zipter_Front
+cd Zipter_Front
+2. 의존성 설치
+bash
+복사
+편집
+npm install
+3. 개발 서버 실행
+bash
+복사
+편집
+npm start
+⚠️ 주의: node_modules 폴더는 GitHub에 포함되지 않습니다.
+따라서 위의 npm install 명령을 반드시 실행해 의존성 패키지를 설치해 주세요.
 
-### `npm run build`
+🔗 백엔드 저장소
+백엔드 코드는 별도의 리포지토리에서 관리됩니다:
+👉 https://github.com/Watchiiee/Zipter_Back
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🙋‍♀️ 역할 및 기여
+본 리포지토리는 집터 프로젝트의 프론트엔드 구현을 담당합니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+구현된 기능:
+사용자 가입/로그인 페이지
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+지역 기반 매물 추천 대시보드
 
-### `npm run eject`
+커뮤니티 질문 및 응답 UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+실시간 알림 연동 (Firebase 기반)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+백엔드는 팀원이 개발 및 유지보수합니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧑🏻‍💻 연락처
+GitHub: https://github.com/ZipTe
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+이메일: zipTeKR@gmail.com
 
-## Learn More
+🚪 집터, 당신만의 공간을 열어드립니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yaml
+복사
+편집
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
