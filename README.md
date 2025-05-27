@@ -21,22 +21,29 @@ React 기반으로 구성되어 있으며, 사용자 인터페이스(UI), 페이
 ```bash
 git clone https://github.com/Watchiiee/Zipter_Front
 cd Zipter_Front
-2. 의존성 설치
-bash
-복사
-편집
+
+```
+
+### 2. 의존성 설치
+
+```bash
 npm install
-3. 개발 서버 실행
-bash
-복사
-편집
+```
+
+### 3. 개발 서버 실행
+```bash
 npm start
+```
+
 ⚠️ 주의: node_modules 폴더는 GitHub에 포함되지 않습니다.
 따라서 위의 npm install 명령을 반드시 실행해 의존성 패키지를 설치해 주세요.
+
+---
 
 🔗 백엔드 저장소
 백엔드 코드는 별도의 리포지토리에서 관리됩니다:
 👉 https://github.com/Watchiiee/Zipter_Back
+---
 
 🙋‍♀️ 역할 및 기여
 본 리포지토리는 집터 프로젝트의 프론트엔드 구현을 담당합니다.
@@ -51,6 +58,7 @@ npm start
 실시간 알림 연동 (Firebase 기반)
 
 백엔드는 팀원이 개발 및 유지보수합니다.
+---
 
 🧑🏻‍💻 연락처
 GitHub: https://github.com/ZipTe
@@ -58,9 +66,4 @@ GitHub: https://github.com/ZipTe
 이메일: zipTeKR@gmail.com
 
 🚪 집터, 당신만의 공간을 열어드립니다.
-
-yaml
-복사
-편집
-
 ---
